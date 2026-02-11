@@ -77,11 +77,18 @@ Data is sourced from publicly available CSV providers.
 
 ## Repository Structure
 
-data/ # Raw and processed datasets
-src/ # Model implementations and evaluation code
-notebooks/ # Exploratory analysis
-results/ # Saved metrics and figures
-report/ # Thesis materials
+data/
+src/
+notebooks/
+results/
+report/
+
+
+- `data/` – Raw and processed datasets  
+- `src/` – Model implementations and evaluation code  
+- `notebooks/` – Exploratory analysis  
+- `results/` – Saved metrics and figures  
+- `report/` – Thesis materials
 
 ---
 
