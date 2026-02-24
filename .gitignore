@@ -56,6 +56,3 @@ results/plots/
 *.png
 *.pdf
 *.svg
-
-# If you want to keep the folders but not the generated files:
-# keep a .gitkeep in results/tables/ and results/plots/ if needed
