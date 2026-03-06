@@ -117,4 +117,35 @@ No proprietary or personal data is used.
 
 ---
 
+## Reproducing Results
+
+### 1. Set up environment
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 2. Run experiments
+
+```bash
+python src/run_experiment.py --market OMXS
+python src/run_experiment.py --market SPX
+```
+
+Results are appended to `results/tables/metrics.csv`.
+
+### 3. Generate tables and plots
+
+Open and run all cells in `analysis.ipynb`. This produces:
+
+- `results/plots/method_comparison.pdf` — bar chart comparing all methods
+- `results/plots/dim_vs_perf.pdf` — line plots of performance vs embedding dimension
+- `results/tables/method_comparison.tex/.csv`
+- `results/tables/dim_ablation.tex/.csv`
+- `results/tables/cross_market.tex/.csv`
+
+---
+
 ## Repository Structure
